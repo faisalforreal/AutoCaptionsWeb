@@ -2,6 +2,7 @@ import { Router } from 'express';
 import multer from 'multer';
 import { TranscribeController } from '../controllers/transcribe.controller';
 import { TemplateController } from '../controllers/template.controller';
+import { PaymentController } from '../controllers/payment.controller';
 
 const router = Router();
 
@@ -25,5 +26,8 @@ router.post('/transcribe', upload.single('file'), TranscribeController.transcrib
 router.get('/templates', TemplateController.getTemplates);
 router.get('/templates/:id', TemplateController.getTemplateById);
 router.get('/fonts', TemplateController.getFonts);
+
+// Creator support & tips (Dodo Payments)
+router.post('/support/checkout', PaymentController.createSupportCheckout);
 
 export default router;

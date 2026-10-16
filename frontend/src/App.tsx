@@ -16,6 +16,7 @@ import { TranscriptList } from './components/editor/TranscriptList';
 import { TemplateGallery } from './components/editor/TemplateGallery';
 import { StyleControls } from './components/editor/StyleControls';
 import { ExportModal } from './components/editor/ExportModal';
+import { SupportModal } from './components/support/SupportModal';
 
 import { AspectRatio, TemplateConfig, Word } from './types';
 import { VIRAL_PRESETS } from './engine/presets';
@@ -66,6 +67,7 @@ export function App() {
   const [isTranscribing, setIsTranscribing] = useState(false);
   const [uploadStatus, setUploadStatus] = useState<string>('');
   const [isExportModalOpen, setIsExportModalOpen] = useState(false);
+  const [showSupportModal, setShowSupportModal] = useState(false);
 
   // Handle Video File Upload
   const handleFileUpload = async (file: File) => {
@@ -172,7 +174,10 @@ export function App() {
       {view === 'landing' ? (
         /* Marketing Landing Page View */
         <>
-          <Navbar onOpenEditor={() => setShowUploadModal(true)} />
+          <Navbar
+            onOpenEditor={() => setShowUploadModal(true)}
+            onOpenSupport={() => setShowSupportModal(true)}
+          />
           <main className="flex-1">
             <HeroSection onOpenEditor={() => setShowUploadModal(true)} />
             <SocialProofMarquee />
@@ -185,7 +190,7 @@ export function App() {
             <HowItWorks />
             <FaqSection />
           </main>
-          <Footer />
+          <Footer onOpenSupport={() => setShowSupportModal(true)} />
 
           {/* Upload Modal */}
           {showUploadModal && (
@@ -254,6 +259,7 @@ export function App() {
             aspectRatio={aspectRatio}
             onChangeAspectRatio={setAspectRatio}
             onOpenExport={() => setIsExportModalOpen(true)}
+            onOpenSupport={() => setShowSupportModal(true)}
             isTranscribing={isTranscribing}
           />
 
@@ -363,9 +369,16 @@ export function App() {
             words={words}
             config={config}
             projectName={projectName}
+            onOpenSupport={() => setShowSupportModal(true)}
           />
         </div>
       )}
+
+      {/* Creator Support Modal */}
+      <SupportModal
+        isOpen={showSupportModal}
+        onClose={() => setShowSupportModal(false)}
+      />
     </div>
   );
 }

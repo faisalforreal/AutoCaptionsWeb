@@ -56,4 +56,29 @@ export class ApiService {
     const res = await fetch(`${API_BASE_URL}/health`);
     return res.json();
   }
+
+  /**
+   * Create creator support checkout session via backend
+   */
+  public static async createSupportCheckout(
+    amount?: number
+  ): Promise<{ checkoutUrl: string; sessionId: string }> {
+    const res = await fetch(`${API_BASE_URL}/support/checkout`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        amount,
+        returnUrl: window.location.href
+      })
+    });
+
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({ error: 'Unable to start checkout' }));
+      throw new Error(err.error || 'Unable to start checkout');
+    }
+
+    return res.json();
+  }
 }

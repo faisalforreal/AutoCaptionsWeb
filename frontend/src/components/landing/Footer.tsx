@@ -1,7 +1,11 @@
 import React from 'react';
 import { Video, Heart } from 'lucide-react';
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  onOpenSupport?: () => void;
+}
+
+export const Footer: React.FC<FooterProps> = ({ onOpenSupport }) => {
   return (
     <footer className="border-t border-white/[0.08] bg-[#070710] py-12 text-sm text-[#707088]">
       <div className="max-w-7xl mx-auto px-5 lg:px-10 flex flex-col sm:flex-row items-center justify-between gap-6">
@@ -13,10 +17,22 @@ export const Footer: React.FC = () => {
           <span className="text-xs text-[#55556a]">· Free Online Caption Studio</span>
         </div>
 
-        <div className="flex items-center gap-1 text-xs">
-          <span>Built with</span>
-          <Heart className="w-3.5 h-3.5 text-purple-400 fill-purple-400" />
-          <span>for creators and storytellers everywhere</span>
+        <div className="flex items-center gap-4 text-xs">
+          {onOpenSupport && (
+            <button
+              onClick={onOpenSupport}
+              className="text-pink-400 hover:text-pink-300 font-medium transition-colors flex items-center gap-1.5"
+            >
+              <Heart className="w-3.5 h-3.5 fill-pink-400" />
+              <span>Support the Project</span>
+            </button>
+          )}
+
+          <div className="flex items-center gap-1 text-[#606078]">
+            <span>Built with</span>
+            <Heart className="w-3.5 h-3.5 text-purple-400 fill-purple-400" />
+            <span>for creators and storytellers</span>
+          </div>
         </div>
       </div>
     </footer>

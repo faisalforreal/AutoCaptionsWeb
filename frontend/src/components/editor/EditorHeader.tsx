@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, Download, Video, Sparkles, Smartphone, Monitor, Square, SmartphoneCharging } from 'lucide-react';
+import { ArrowLeft, Download, Video, Sparkles, Smartphone, Monitor, Square, SmartphoneCharging, Heart } from 'lucide-react';
 import { AspectRatio } from '../../types';
 
 interface EditorHeaderProps {
@@ -8,6 +7,7 @@ interface EditorHeaderProps {
   aspectRatio: AspectRatio;
   onChangeAspectRatio: (ratio: AspectRatio) => void;
   onOpenExport: () => void;
+  onOpenSupport?: () => void;
   isTranscribing: boolean;
 }
 
@@ -17,6 +17,7 @@ export const EditorHeader: React.FC<EditorHeaderProps> = ({
   aspectRatio,
   onChangeAspectRatio,
   onOpenExport,
+  onOpenSupport,
   isTranscribing
 }) => {
   const ratios: { label: string; value: AspectRatio; icon: any }[] = [
@@ -76,8 +77,19 @@ export const EditorHeader: React.FC<EditorHeaderProps> = ({
         })}
       </div>
 
-      {/* Export CTA Button */}
-      <div className="flex items-center gap-3">
+      {/* Action CTA Buttons */}
+      <div className="flex items-center gap-2.5">
+        {onOpenSupport && (
+          <button
+            onClick={onOpenSupport}
+            className="hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-full border border-pink-500/30 bg-pink-500/10 hover:bg-pink-500/20 text-pink-300 text-xs font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]"
+            title="Support the Creator"
+          >
+            <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" />
+            <span>Support</span>
+          </button>
+        )}
+
         <button
           onClick={onOpenExport}
           className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-xs sm:text-sm px-5 py-2.5 rounded-full flex items-center gap-2 shadow-lg shadow-purple-600/30 hover:scale-[1.02] active:scale-[0.98] transition-all"

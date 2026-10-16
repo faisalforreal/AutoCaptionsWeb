@@ -1,11 +1,12 @@
 import React from 'react';
-import { Sparkles, Video, ArrowRight, Github } from 'lucide-react';
+import { Sparkles, Video, ArrowRight, Heart } from 'lucide-react';
 
 interface NavbarProps {
   onOpenEditor: () => void;
+  onOpenSupport?: () => void;
 }
 
-export const Navbar: React.FC<NavbarProps> = ({ onOpenEditor }) => {
+export const Navbar: React.FC<NavbarProps> = ({ onOpenEditor, onOpenSupport }) => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/[0.07] bg-[#0b0b15]/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-5 lg:px-10 h-[68px] flex items-center justify-between">
@@ -31,7 +32,17 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEditor }) => {
         </nav>
 
         {/* Action CTAs */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2.5">
+          {onOpenSupport && (
+            <button
+              onClick={onOpenSupport}
+              className="hidden sm:flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-pink-500/30 bg-pink-500/10 hover:bg-pink-500/20 text-pink-300 text-xs font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]"
+            >
+              <Heart className="w-3.5 h-3.5 text-pink-400 fill-pink-400" />
+              <span>Support</span>
+            </button>
+          )}
+
           <button
             onClick={onOpenEditor}
             className="bg-purple-600 hover:bg-purple-500 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-200 flex items-center gap-2 shadow-lg shadow-purple-600/30 hover:scale-[1.02] active:scale-[0.98]"

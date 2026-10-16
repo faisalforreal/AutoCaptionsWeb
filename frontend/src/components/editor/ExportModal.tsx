@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Download, FileText, CheckCircle2, Film, Sparkles, Loader2 } from 'lucide-react';
+import { X, Download, FileText, CheckCircle2, Film, Sparkles, Loader2, Heart } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { TemplateConfig, Word } from '../../types';
 import {
@@ -17,6 +17,7 @@ interface ExportModalProps {
   words: Word[];
   config: TemplateConfig;
   projectName: string;
+  onOpenSupport?: () => void;
 }
 
 export const ExportModal: React.FC<ExportModalProps> = ({
@@ -25,7 +26,8 @@ export const ExportModal: React.FC<ExportModalProps> = ({
   videoElement,
   words,
   config,
-  projectName
+  projectName,
+  onOpenSupport
 }) => {
   const [resolution, setResolution] = useState<'1080p' | '720p'>('1080p');
   const [isExporting, setIsExporting] = useState(false);
@@ -210,6 +212,22 @@ export const ExportModal: React.FC<ExportModalProps> = ({
                 <span>Script .TXT</span>
               </button>
             </div>
+
+            {/* Support the Creator prompt */}
+            {onOpenSupport && (
+              <div className="w-full pt-4 mt-1 border-t border-white/[0.06] text-center">
+                <p className="text-xs text-[#808098] mb-2.5">
+                  Love your captioned video? Help keep AutoCaption free!
+                </p>
+                <button
+                  onClick={onOpenSupport}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-pink-500/15 hover:bg-pink-500/25 border border-pink-500/30 text-pink-300 text-xs font-bold transition-all hover:scale-[1.02] shadow-sm shadow-pink-500/10"
+                >
+                  <Heart className="w-3.5 h-3.5 fill-pink-400" />
+                  <span>Support the Creator</span>
+                </button>
+              </div>
+            )}
           </div>
         ) : (
           /* Pre-Export Options State */
