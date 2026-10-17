@@ -1,6 +1,7 @@
 import { TemplateConfig, TranscriptionResponse } from '../types';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api';
+const CLIENT_KEY = import.meta.env.VITE_APP_CLIENT_KEY || 'ac_web_client_prod_89f72b';
 
 export class ApiService {
   /**
@@ -16,6 +17,9 @@ export class ApiService {
 
     const res = await fetch(`${API_BASE_URL}/transcribe`, {
       method: 'POST',
+      headers: {
+        'x-autocaption-client-key': CLIENT_KEY
+      },
       body: formData
     });
 
@@ -66,7 +70,8 @@ export class ApiService {
     const res = await fetch(`${API_BASE_URL}/support/checkout`, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'x-autocaption-client-key': CLIENT_KEY
       },
       body: JSON.stringify({
         amount,

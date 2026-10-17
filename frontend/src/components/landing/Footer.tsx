@@ -1,5 +1,6 @@
 import React from 'react';
 import { Video, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface FooterProps {
   onOpenSupport?: () => void;
@@ -17,7 +18,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenSupport }) => {
           <span className="text-xs text-[#55556a]">· Free Online Caption Studio</span>
         </div>
 
-        <div className="flex items-center gap-4 text-xs">
+        <div className="flex flex-wrap items-center gap-5 text-xs">
+          <Link to="/privacy" className="hover:text-white transition-colors">
+            Privacy Policy
+          </Link>
+          <Link to="/terms" className="hover:text-white transition-colors">
+            Terms of Service
+          </Link>
+
           {onOpenSupport && (
             <button
               onClick={onOpenSupport}

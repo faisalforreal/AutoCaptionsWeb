@@ -1,16 +1,40 @@
 import express from 'express';
 import cors from 'cors';
+import helmet from 'helmet';
 import { config } from './config/env';
 import apiRoutes from './routes/api';
+import { globalApiLimiter } from './middleware/security.middleware';
 
 const app = express();
 
-// Middlewares
-app.use(cors({
-  origin: '*', // Allow frontend development & production origins
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
+// Security headers
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: 'cross-origin' }
 }));
+
+// Allowed origins for CORS protection
+const allowedOrigins = [
+  'https://autocaptions-free.netlify.app',
+  'http://localhost:5173',
+  'http://localhost:3000',
+  config.FRONTEND_URL
+].filter(Boolean);
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // Allow requests with no origin (e.g. mobile apps, curl during dev if needed) or matching allowed list
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error(`CORS policy blocked access from origin: ${origin}`));
+    }
+  },
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'x-autocaption-client-key']
+}));
+
+// Global rate limiting
+app.use(globalApiLimiter);
 
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
