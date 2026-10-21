@@ -19,16 +19,45 @@ export interface RGBColor {
 export type DisplayMode = 'ALL' | 'LINE' | 'WORD';
 export type OrganizeWordsMode = 'PUNCTUATION' | 'FIXED';
 export type SpokenMode = 'LINE' | 'WORD';
-export type EffectType = 'DISABLED' | 'POP' | 'BIG' | 'SMOOTH_POP' | 'FADE' | 'FONT' | 'SHAKE' | 'GLITCH' | 'WAVE_SCALE';
+export type EffectType =
+  | 'DISABLED'
+  | 'POP'
+  | 'SMOOTH_POP'
+  | 'SPRING_BOUNCE'
+  | 'GLOW_PULSE'
+  | 'COLOR_SHIFT'
+  | 'KARAOKE_WIPE'
+  | 'JITTER_SHAKE'
+  | 'STRETCH_SNAP'
+  | 'GLITCH_RGB'
+  | 'SWAY_FLOAT'
+  | 'FLIP_3D'
+  | 'RISE_UP'
+  | 'TYPEWRITER'
+  | 'EXTRUDE_3D'
+  | 'RAINBOW_CYCLE'
+  | 'SPARKLE_TWINKLE'
+  | 'SMOKE_FADE'
+  | 'LYRIC_ROLL'
+  | 'VARIETY_PUNCH'
+  | 'FADE'
+  | 'FONT'
+  | 'BIG'
+  | 'SHAKE'
+  | 'GLITCH'
+  | 'WAVE_SCALE';
 export type CapitalizationType = 'DEFAULT' | 'UPPERCASE' | 'LOWERCASE';
 export type EmojiEffectType = 'DISABLED' | 'DEFAULT' | 'SLIDE' | 'SHAKE' | 'HORIZONTAL_FLIP' | 'VERTICAL_FLIP';
 export type AspectRatio = '9:16' | '1:1' | '16:9' | '4:5';
+
+export type TemplateCategory = 'viral' | 'minimal' | 'bold' | 'creator' | 'glow' | 'retro' | 'karaoke' | 'lyrics';
 
 export interface TemplateConfig {
   id: string;
   name: string;
   description: string;
-  category: 'viral' | 'minimal' | 'bold' | 'creator';
+  category: TemplateCategory;
+  tags?: string[];
   font: {
     name: string;
     weight: number;

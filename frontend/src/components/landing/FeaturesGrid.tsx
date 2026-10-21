@@ -6,8 +6,8 @@ export const FeaturesGrid: React.FC = () => {
   const features = [
     {
       icon: Type,
-      title: '16+ Viral Creator Presets',
-      desc: 'Instant styles modeled after Hormozi, MrBeast, Ali Abdaal, Cyberpunk Neon, and Luxury Editorial with customizable fonts and outlines.',
+      title: '150+ Creator Caption Styles',
+      desc: 'Instant styles including sliding lyrics, elastic bounce, high-retention one-word pops, neon glow, and retro aesthetics.',
       color: 'text-purple-400'
     },
     {

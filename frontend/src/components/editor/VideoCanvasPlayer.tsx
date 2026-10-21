@@ -13,6 +13,7 @@ interface VideoCanvasPlayerProps {
   isPlaying: boolean;
   onTimeUpdate: (time: number) => void;
   onTogglePlay: () => void;
+  onPlayStateChange?: (playing: boolean) => void;
   onDurationChange: (dur: number) => void;
   onUpdateConfig: (updated: Partial<TemplateConfig>) => void;
   videoRef: React.RefObject<HTMLVideoElement>;
@@ -28,6 +29,7 @@ export const VideoCanvasPlayer: React.FC<VideoCanvasPlayerProps> = ({
   isPlaying,
   onTimeUpdate,
   onTogglePlay,
+  onPlayStateChange,
   onDurationChange,
   onUpdateConfig,
   videoRef
@@ -50,6 +52,9 @@ export const VideoCanvasPlayer: React.FC<VideoCanvasPlayerProps> = ({
   const handleVideoTimeUpdate = () => {
     if (videoRef.current) {
       onTimeUpdate(videoRef.current.currentTime);
+      if (videoRef.current.ended) {
+        onPlayStateChange?.(false);
+      }
     }
   };
 
@@ -175,11 +180,14 @@ export const VideoCanvasPlayer: React.FC<VideoCanvasPlayerProps> = ({
         playsInline
         onTimeUpdate={handleVideoTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
+        onPlay={() => onPlayStateChange?.(true)}
+        onPause={() => onPlayStateChange?.(false)}
         onEnded={() => {
           if (videoRef.current) {
             videoRef.current.currentTime = 0;
             onTimeUpdate(0);
           }
+          onPlayStateChange?.(false);
         }}
         className="hidden"
       />

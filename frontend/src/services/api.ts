@@ -32,7 +32,7 @@ export class ApiService {
   }
 
   /**
-   * Fetch all 16 viral presets
+   * Fetch all creator presets
    */
   public static async getTemplates(): Promise<TemplateConfig[]> {
     const res = await fetch(`${API_BASE_URL}/templates`);

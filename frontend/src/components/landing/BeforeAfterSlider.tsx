@@ -19,10 +19,10 @@ export const BeforeAfterSlider: React.FC = () => {
       const elapsed = time - startTime;
       const progress = Math.min(1, elapsed / duration);
 
-      // Smooth sine wave swing: 50 -> 24 -> 76 -> 50
+      // Smooth sine wave swing all the way across: 50 -> 0 -> 100 -> 50
       // sin(0) = 0, sin(pi/2) = 1, sin(3pi/2) = -1, sin(2pi) = 0
-      const swing = Math.sin(progress * Math.PI * 2) * 26;
-      setSliderPosition(50 - swing);
+      const swing = Math.sin(progress * Math.PI * 2) * 50;
+      setSliderPosition(Math.max(0, Math.min(100, 50 - swing)));
 
       if (progress < 1 && !hasUserInteracted) {
         animFrameRef.current = requestAnimationFrame(animateSlider);
@@ -49,37 +49,46 @@ export const BeforeAfterSlider: React.FC = () => {
     if (!containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
     const x = clientX - rect.left;
-    const percent = Math.max(5, Math.min(95, (x / rect.width) * 100));
+    const percent = Math.max(0, Math.min(100, (x / rect.width) * 100));
     setSliderPosition(percent);
   };
 
-  const handleTouchMove = (e: React.TouchEvent) => {
-    handleMove(e.touches[0].clientX);
-  };
+  // Global pointer tracking so moving outside container never loses drag context
+  useEffect(() => {
+    if (!isDragging) return;
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (isDragging) {
+    const onPointerMove = (e: PointerEvent) => {
       handleMove(e.clientX);
-    }
-  };
+    };
+
+    const onPointerUp = () => {
+      setIsDragging(false);
+    };
+
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('pointerup', onPointerUp);
+    window.addEventListener('pointercancel', onPointerUp);
+
+    return () => {
+      window.removeEventListener('pointermove', onPointerMove);
+      window.removeEventListener('pointerup', onPointerUp);
+      window.removeEventListener('pointercancel', onPointerUp);
+    };
+  }, [isDragging]);
 
   return (
     <div
       ref={containerRef}
-      onMouseDown={(e) => {
+      onPointerDown={(e) => {
         setIsDragging(true);
         handleMove(e.clientX);
+        try {
+          (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+        } catch {
+          // Fallback if pointer capture unsupported
+        }
       }}
-      onMouseUp={() => setIsDragging(false)}
-      onMouseLeave={() => setIsDragging(false)}
-      onMouseMove={handleMouseMove}
-      onTouchStart={(e) => {
-        setIsDragging(true);
-        handleMove(e.touches[0].clientX);
-      }}
-      onTouchEnd={() => setIsDragging(false)}
-      onTouchMove={handleTouchMove}
-      className="relative w-full max-w-sm sm:max-w-md mx-auto aspect-[9/16] rounded-2xl overflow-hidden border border-white/10 shadow-2xl select-none cursor-ew-resize bg-[#0d0d1a]"
+      className="relative w-full max-w-sm sm:max-w-md mx-auto aspect-[9/16] rounded-2xl overflow-hidden border border-white/10 shadow-2xl select-none cursor-ew-resize bg-[#0d0d1a] touch-none"
     >
       {/* ============================================================== */}
       {/* 1. SHARED BASE VIDEO LAYER (100% Identical on both sides)        */}

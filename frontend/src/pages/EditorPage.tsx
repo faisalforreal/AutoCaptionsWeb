@@ -61,8 +61,12 @@ export const EditorPage: React.FC = () => {
 
   const handleTogglePlay = () => {
     if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play();
+      if (videoRef.current.paused || videoRef.current.ended) {
+        if (videoRef.current.ended || videoRef.current.currentTime >= videoRef.current.duration) {
+          videoRef.current.currentTime = 0;
+          setCurrentTime(0);
+        }
+        videoRef.current.play().catch(console.error);
         setIsPlaying(true);
       } else {
         videoRef.current.pause();
@@ -72,6 +76,25 @@ export const EditorPage: React.FC = () => {
       setIsPlaying(!isPlaying);
     }
   };
+
+  // Keyboard shortcut: Spacebar to toggle Play/Pause smoothly
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const active = document.activeElement;
+      const isInput =
+        active &&
+        (active.tagName === 'INPUT' ||
+          active.tagName === 'TEXTAREA' ||
+          (active as HTMLElement).isContentEditable);
+      if (e.code === 'Space' && !isInput) {
+        e.preventDefault();
+        handleTogglePlay();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isPlaying]);
 
   const handleSeek = (time: number) => {
     setCurrentTime(time);
@@ -155,7 +178,7 @@ export const EditorPage: React.FC = () => {
                   : 'text-[#8888a0] hover:text-white'
               }`}
             >
-              16 Presets
+              Templates
             </button>
             <button
               onClick={() => setActiveSidebarTab('transcript')}
@@ -179,15 +202,15 @@ export const EditorPage: React.FC = () => {
             </button>
           </div>
 
-          {/* Active Tab Content */}
-          <div className="flex-1 overflow-hidden">
-            {activeSidebarTab === 'templates' && (
+          {/* Active Tab Content - Kept mounted in background for instant 0ms tab switching */}
+          <div className="flex-1 overflow-hidden relative">
+            <div className={`h-full flex flex-col ${activeSidebarTab === 'templates' ? '' : 'hidden'}`}>
               <TemplateGallery
                 currentConfig={config}
                 onSelectTemplate={(t) => setConfig(t)}
               />
-            )}
-            {activeSidebarTab === 'transcript' && (
+            </div>
+            <div className={`h-full flex flex-col ${activeSidebarTab === 'transcript' ? '' : 'hidden'}`}>
               <TranscriptList
                 words={words}
                 currentTime={currentTime}
@@ -198,13 +221,13 @@ export const EditorPage: React.FC = () => {
                 onSelectWord={setSelectedWordIndex}
                 onBatchUpdateWords={batchUpdateWords}
               />
-            )}
-            {activeSidebarTab === 'style' && (
+            </div>
+            <div className={`h-full flex flex-col ${activeSidebarTab === 'style' ? '' : 'hidden'}`}>
               <StyleControls
                 config={config}
                 onUpdateConfig={updateConfig}
               />
-            )}
+            </div>
           </div>
         </div>
 
@@ -221,6 +244,7 @@ export const EditorPage: React.FC = () => {
               isPlaying={isPlaying}
               onTimeUpdate={setCurrentTime}
               onTogglePlay={handleTogglePlay}
+              onPlayStateChange={setIsPlaying}
               onDurationChange={setDuration}
               onUpdateConfig={updateConfig}
               videoRef={videoRef}
