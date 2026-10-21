@@ -2,6 +2,3759 @@ import { TemplateConfig } from '../types';
 
 export const VIRAL_PRESETS: TemplateConfig[] = [
   {
+    "id": "dew-drops",
+    "name": "Dew Drops",
+    "description": "Dew Drops aesthetic captions with Montserrat Bold styling",
+    "category": "lyrics",
+    "tags": [
+      "trending",
+      "lyrics",
+      "music"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "LINE",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 42,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 46,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "popup-graffiti",
+    "name": "Popup Graffiti",
+    "description": "Popup Graffiti aesthetic captions with Montserrat Bold styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 12,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 70
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "rainstorm",
+    "name": "Rainstorm",
+    "description": "Rainstorm aesthetic captions with ZY Starry Regular styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "ZY Starry Regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 48,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 52,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "pink-apartment",
+    "name": "Pink Apartment",
+    "description": "Pink Apartment aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 245,
+          "g": 64,
+          "b": 115
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 245,
+          "g": 64,
+          "b": 115,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 48,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 52,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "music-player",
+    "name": "Music Player",
+    "description": "Music Player aesthetic captions with Montserrat Bold styling",
+    "category": "lyrics",
+    "tags": [
+      "trending",
+      "lyrics",
+      "music"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "LINE",
+      "effectType": "KARAOKE_WIPE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 38,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 41,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "wipe-away",
+    "name": "Wipe Away",
+    "description": "Wipe Away aesthetic captions with Montserrat Bold styling",
+    "category": "viral",
+    "tags": [
+      "trending",
+      "classic",
+      "bold"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 27,
+          "g": 221,
+          "b": 216
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "KARAOKE_WIPE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "multiline",
+    "name": "Multiline",
+    "description": "Multiline aesthetic captions with Montserrat Bold styling",
+    "category": "minimal",
+    "tags": [
+      "trending",
+      "minimal",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RISE_UP",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 38,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 41,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "multi-line",
+    "name": "Multi-line",
+    "description": "Multi-line aesthetic captions with Montserrat Bold styling",
+    "category": "minimal",
+    "tags": [
+      "trending",
+      "minimal",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RISE_UP",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "playback-screen",
+    "name": "Playback Screen",
+    "description": "Playback Screen aesthetic captions with Montserrat Bold styling",
+    "category": "retro",
+    "tags": [
+      "trending",
+      "retro",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "TYPEWRITER",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 45,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 49,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "vhs",
+    "name": "VHS",
+    "description": "VHS aesthetic captions with Montserrat Bold styling",
+    "category": "retro",
+    "tags": [
+      "trending",
+      "retro",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLITCH_RGB",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 42,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 46,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "crt",
+    "name": "CRT",
+    "description": "CRT aesthetic captions with Montserrat Bold styling",
+    "category": "retro",
+    "tags": [
+      "trending",
+      "retro",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLITCH_RGB",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "colorsplosion",
+    "name": "Colorsplosion",
+    "description": "Colorsplosion aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 65,
+          "b": 75
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 50,
+          "b": 59
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 65,
+          "b": 75,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RAINBOW_CYCLE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 57,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 62,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "coloris",
+    "name": "Coloris",
+    "description": "Coloris aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RAINBOW_CYCLE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "brat-1",
+    "name": "Brat 1",
+    "description": "Brat 1 aesthetic captions with Montserrat Bold styling",
+    "category": "minimal",
+    "tags": [
+      "trending",
+      "minimal",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 42,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 46,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "text-popup",
+    "name": "Text Popup",
+    "description": "Text Popup aesthetic captions with Montserrat Bold styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 54,
+      "strokeSize": 12,
+      "blurSize": 6,
+      "emojiSize": 59,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 70
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "glow-rain",
+    "name": "Glow Rain",
+    "description": "Glow Rain aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 38,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 41,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "glow-writing",
+    "name": "Glow Writing",
+    "description": "Glow Writing aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 42,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 46,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "swipe-glow",
+    "name": "Swipe Glow",
+    "description": "Swipe Glow aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 251,
+          "g": 245,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 251,
+          "g": 245,
+          "b": 0,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "KARAOKE_WIPE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 38,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 41,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "lyric-scroll",
+    "name": "Lyric Scroll",
+    "description": "Lyric Scroll aesthetic captions with Montserrat Bold styling",
+    "category": "lyrics",
+    "tags": [
+      "trending",
+      "lyrics",
+      "music"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "LINE",
+      "effectType": "RISE_UP",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 38,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 41,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 4,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "italic-glide",
+    "name": "Italic Glide",
+    "description": "Italic Glide animated captions with Montra Italic styling",
+    "category": "minimal",
+    "tags": [
+      "trending",
+      "clean",
+      "minimal"
+    ],
+    "font": {
+      "name": "Montra Italic",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 255,
+          "b": 120
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RISE_UP",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 8,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "scanline",
+    "name": "Scanline",
+    "description": "Scanline aesthetic captions with Montserrat Bold styling",
+    "category": "retro",
+    "tags": [
+      "trending",
+      "classic",
+      "bold"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 226,
+          "b": 38
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 137,
+          "g": 255,
+          "b": 38
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLITCH_RGB",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "retro-lyric",
+    "name": "Retro Lyric",
+    "description": "Retro Lyric aesthetic captions with Montserrat Bold styling",
+    "category": "retro",
+    "tags": [
+      "trending",
+      "retro",
+      "classic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLITCH_RGB",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 48,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 52,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "rainbow-on-black",
+    "name": "Rainbow on Black",
+    "description": "Rainbow on Black aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0,
+          "a": 0.8
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RAINBOW_CYCLE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 42,
+      "strokeSize": 8,
+      "blurSize": 14,
+      "emojiSize": 46,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "color-gradient-prism",
+    "name": "Color Gradient Prism",
+    "description": "Color Gradient Prism animated captions with Amazing Slab Black styling",
+    "category": "viral",
+    "tags": [
+      "trending",
+      "animation"
+    ],
+    "font": {
+      "name": "Amazing Slab Black",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 255,
+          "b": 120
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RAINBOW_CYCLE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 8,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "bold-spring-pop",
+    "name": "Bold Spring Pop",
+    "description": "Bold Spring Pop animated captions with CC-Abrasion regular styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "CC-Abrasion regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "solar-word-pop",
+    "name": "Solar Word Pop",
+    "description": "Solar Word Pop animated captions with ZY Elegant styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "ZY Elegant",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "dark-wave",
+    "name": "Dark Wave",
+    "description": "Dark Wave aesthetic captions with Montserrat Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "classic",
+      "bold"
+    ],
+    "font": {
+      "name": "Montserrat Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 60,
+      "strokeSize": 8,
+      "blurSize": 6,
+      "emojiSize": 66,
+      "backgroundRadius": 8,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": false,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "neon-emerald-glow",
+    "name": "Neon Emerald Glow",
+    "description": "Neon Emerald Glow animated captions with YWFT Becks Regular styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "YWFT Becks Regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "line-rise-reveal",
+    "name": "Line Rise Reveal",
+    "description": "Line Rise Reveal animated captions with Balwine Regular styling",
+    "category": "minimal",
+    "tags": [
+      "trending",
+      "clean",
+      "minimal"
+    ],
+    "font": {
+      "name": "Balwine Regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 0,
+          "g": 255,
+          "b": 120
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "RISE_UP",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 8,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "bouncy-elastic-pop",
+    "name": "Bouncy Elastic Pop",
+    "description": "Bouncy Elastic Pop animated captions with Benguiat Pro ITC Bold styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Benguiat Pro ITC Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "rapid-word-pop",
+    "name": "Rapid Word Pop",
+    "description": "Rapid Word Pop animated captions with Klop styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Klop",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "solar-glow-word",
+    "name": "Solar Glow Word",
+    "description": "Solar Glow Word animated captions with Work Sans Black styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Work Sans Black",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "glowing-rise-up",
+    "name": "Glowing Rise Up",
+    "description": "Glowing Rise Up animated captions with FFF_Oezguer-Guendem Bold styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "FFF_Oezguer-Guendem Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "electric-mint-pop",
+    "name": "Electric Mint Pop",
+    "description": "Electric Mint Pop animated captions with Gotham-Bold styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Gotham-Bold",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "impact-bold-pop",
+    "name": "Impact Bold Pop",
+    "description": "Impact Bold Pop animated captions with HYQiHeiArabic 75 styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "HYQiHeiArabic 75",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "jitter-rainbow-glow",
+    "name": "Jitter Rainbow Glow",
+    "description": "Jitter Rainbow Glow animated captions with Inter Black styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Inter Black",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "uv-neon-strobe",
+    "name": "UV Neon Strobe",
+    "description": "UV Neon Strobe animated captions with HV Analogue Bold Regular styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "HV Analogue Bold Regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "script-bounce-pop",
+    "name": "Script Bounce Pop",
+    "description": "Script Bounce Pop animated captions with Coda Heavy styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Coda Heavy",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "framed-box-popup",
+    "name": "Framed Box Popup",
+    "description": "Framed Box Popup animated captions with Melvins One Regular styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Melvins One Regular",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "fluorescent-carved",
+    "name": "Fluorescent Carved",
+    "description": "Fluorescent Carved animated captions with Feisty styling",
+    "category": "glow",
+    "tags": [
+      "trending",
+      "glow",
+      "aesthetic"
+    ],
+    "font": {
+      "name": "Feisty",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 255,
+          "g": 0,
+          "b": 128
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 240,
+          "b": 255,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "LINE",
+      "displayWords": "PUNCTUATION",
+      "spokenMode": "WORD",
+      "effectType": "GLOW_PULSE",
+      "emojiEffect": "DEFAULT"
+    },
+    "sizes": {
+      "fontSize": 44,
+      "strokeSize": 8,
+      "blurSize": 16,
+      "emojiSize": 48,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 75
+    },
+    "linesCount": 2,
+    "wordsPerLineCount": 3,
+    "wordHasBackground": false,
+    "wordHasPunctuation": true,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "DEFAULT"
+  },
+  {
+    "id": "variety-comic-pop",
+    "name": "Variety Comic Pop",
+    "description": "Variety Comic Pop animated captions with Roboto Condensed Black styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Roboto Condensed Black",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "gothic-word-pop",
+    "name": "Gothic Word Pop",
+    "description": "Gothic Word Pop animated captions with Uninsta Black styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "Uninsta Black",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
+    "id": "bold-spring-pop-1350",
+    "name": "Bold Spring Pop",
+    "description": "Bold Spring Pop animated captions with ZY Palette styling",
+    "category": "bold",
+    "tags": [
+      "trending",
+      "word",
+      "bold",
+      "animation"
+    ],
+    "font": {
+      "name": "ZY Palette",
+      "weight": 800,
+      "direction": "LTR"
+    },
+    "colors": {
+      "defaultColor": [
+        {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      ],
+      "spokenColor": [
+        {
+          "r": 255,
+          "g": 230,
+          "b": 0
+        }
+      ],
+      "hilightColor": [
+        {
+          "r": 43,
+          "g": 248,
+          "b": 42
+        }
+      ],
+      "strokeColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        }
+      ],
+      "backgroundColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.0
+        }
+      ],
+      "shadowColor": [
+        {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.85
+        }
+      ]
+    },
+    "modes": {
+      "displayMode": "WORD",
+      "displayWords": "FIXED",
+      "spokenMode": "WORD",
+      "effectType": "SPRING_BOUNCE",
+      "emojiEffect": "SLIDE"
+    },
+    "sizes": {
+      "fontSize": 52,
+      "strokeSize": 12,
+      "blurSize": 8,
+      "emojiSize": 56,
+      "backgroundRadius": 10,
+      "backgroundPaddingX": 16,
+      "backgroundPaddingY": 8,
+      "posY": 72
+    },
+    "linesCount": 1,
+    "wordsPerLineCount": 1,
+    "wordHasBackground": false,
+    "wordHasPunctuation": false,
+    "wordHasShadow": true,
+    "emojiAnimated": true,
+    "capitalizationType": "UPPERCASE"
+  },
+  {
     "id": "sprinkle-lyrics",
     "name": "Sprinkle Lyrics",
     "description": "Sprinkle Lyrics aesthetic captions with Montserrat Bold styling",
@@ -439,93 +4192,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "multiline",
-    "name": "Multiline",
-    "description": "Multiline aesthetic captions with Montserrat Bold styling",
-    "category": "minimal",
-    "tags": [
-      "trending",
-      "minimal",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RISE_UP",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 38,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 41,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "moving-lyrics",
     "name": "Moving Lyrics",
     "description": "Moving Lyrics aesthetic captions with Montserrat Bold styling",
@@ -613,267 +4279,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "DEFAULT"
   },
   {
-    "id": "music-player",
-    "name": "Music Player",
-    "description": "Music Player aesthetic captions with Montserrat Bold styling",
-    "category": "lyrics",
-    "tags": [
-      "trending",
-      "lyrics",
-      "music"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "LINE",
-      "effectType": "KARAOKE_WIPE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 38,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 41,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "dew-drops",
-    "name": "Dew Drops",
-    "description": "Dew Drops aesthetic captions with Montserrat Bold styling",
-    "category": "lyrics",
-    "tags": [
-      "trending",
-      "lyrics",
-      "music"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "LINE",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 42,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "colorsplosion",
-    "name": "Colorsplosion",
-    "description": "Colorsplosion aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 65,
-          "b": 75
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 50,
-          "b": 59
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 65,
-          "b": 75,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RAINBOW_CYCLE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 57,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 62,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "chic",
     "name": "Chic",
     "description": "Chic aesthetic captions with ZY Jovial styling",
@@ -957,180 +4362,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasBackground": false,
     "wordHasPunctuation": true,
     "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "wipe-away",
-    "name": "Wipe Away",
-    "description": "Wipe Away aesthetic captions with Montserrat Bold styling",
-    "category": "viral",
-    "tags": [
-      "trending",
-      "classic",
-      "bold"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 27,
-          "g": 221,
-          "b": 216
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "KARAOKE_WIPE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "rainstorm",
-    "name": "Rainstorm",
-    "description": "Rainstorm aesthetic captions with ZY Starry Regular styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "ZY Starry Regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 48,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 52,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "DEFAULT"
   },
@@ -1398,268 +4629,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "popup-graffiti",
-    "name": "Popup Graffiti",
-    "description": "Popup Graffiti aesthetic captions with Montserrat Bold styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 12,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 70
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "pink-apartment",
-    "name": "Pink Apartment",
-    "description": "Pink Apartment aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 245,
-          "g": 64,
-          "b": 115
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 245,
-          "g": 64,
-          "b": 115,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 48,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 52,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "swipe-glow",
-    "name": "Swipe Glow",
-    "description": "Swipe Glow aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 251,
-          "g": 245,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 251,
-          "g": 245,
-          "b": 0,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "KARAOKE_WIPE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 38,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 41,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "poem",
     "name": "Poem",
     "description": "Poem aesthetic captions with Montserrat Bold styling",
@@ -1726,267 +4695,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
       "displayWords": "PUNCTUATION",
       "spokenMode": "WORD",
       "effectType": "FADE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "vhs",
-    "name": "VHS",
-    "description": "VHS aesthetic captions with Montserrat Bold styling",
-    "category": "retro",
-    "tags": [
-      "trending",
-      "retro",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLITCH_RGB",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 42,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "playback-screen",
-    "name": "Playback Screen",
-    "description": "Playback Screen aesthetic captions with Montserrat Bold styling",
-    "category": "retro",
-    "tags": [
-      "trending",
-      "retro",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "TYPEWRITER",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 45,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 49,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "multi-line",
-    "name": "Multi-line",
-    "description": "Multi-line aesthetic captions with Montserrat Bold styling",
-    "category": "minimal",
-    "tags": [
-      "trending",
-      "minimal",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RISE_UP",
       "emojiEffect": "DEFAULT"
     },
     "sizes": {
@@ -2270,93 +4978,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "DEFAULT"
   },
   {
-    "id": "crt",
-    "name": "CRT",
-    "description": "CRT aesthetic captions with Montserrat Bold styling",
-    "category": "retro",
-    "tags": [
-      "trending",
-      "retro",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLITCH_RGB",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "brat-2",
     "name": "Brat 2",
     "description": "Brat 2 aesthetic captions with Montserrat Bold styling",
@@ -2442,268 +5063,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": false,
     "emojiAnimated": true,
     "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "brat-1",
-    "name": "Brat 1",
-    "description": "Brat 1 aesthetic captions with Montserrat Bold styling",
-    "category": "minimal",
-    "tags": [
-      "trending",
-      "minimal",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 42,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "lyric-scroll",
-    "name": "Lyric Scroll",
-    "description": "Lyric Scroll aesthetic captions with Montserrat Bold styling",
-    "category": "lyrics",
-    "tags": [
-      "trending",
-      "lyrics",
-      "music"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "LINE",
-      "effectType": "RISE_UP",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 38,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 41,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 4,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "text-popup",
-    "name": "Text Popup",
-    "description": "Text Popup aesthetic captions with Montserrat Bold styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 54,
-      "strokeSize": 12,
-      "blurSize": 6,
-      "emojiSize": 59,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 70
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
   },
   {
     "id": "sway-vibe",
@@ -2881,180 +5240,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "scanline",
-    "name": "Scanline",
-    "description": "Scanline aesthetic captions with Montserrat Bold styling",
-    "category": "retro",
-    "tags": [
-      "trending",
-      "classic",
-      "bold"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 226,
-          "b": 38
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 137,
-          "g": 255,
-          "b": 38
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLITCH_RGB",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "coloris",
-    "name": "Coloris",
-    "description": "Coloris aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RAINBOW_CYCLE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "paper-collage",
     "name": "Paper Collage",
     "description": "Paper Collage aesthetic captions with Montserrat Bold styling",
@@ -3128,93 +5313,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
       "strokeSize": 8,
       "blurSize": 6,
       "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "retro-lyric",
-    "name": "Retro Lyric",
-    "description": "Retro Lyric aesthetic captions with Montserrat Bold styling",
-    "category": "retro",
-    "tags": [
-      "trending",
-      "retro",
-      "classic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLITCH_RGB",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 48,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 52,
       "backgroundRadius": 8,
       "backgroundPaddingX": 16,
       "backgroundPaddingY": 8,
@@ -3316,267 +5414,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "DEFAULT"
   },
   {
-    "id": "rainbow-on-black",
-    "name": "Rainbow on Black",
-    "description": "Rainbow on Black aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RAINBOW_CYCLE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 42,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "glow-rain",
-    "name": "Glow Rain",
-    "description": "Glow Rain aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 38,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 41,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "glow-writing",
-    "name": "Glow Writing",
-    "description": "Glow Writing aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0,
-          "a": 0.8
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 42,
-      "strokeSize": 8,
-      "blurSize": 14,
-      "emojiSize": 46,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "hip-hop-multiline",
     "name": "Hip-hop Multiline",
     "description": "Hip-hop Multiline aesthetic captions with Montserrat Bold styling",
@@ -3664,93 +5501,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "DEFAULT"
   },
   {
-    "id": "dark-wave",
-    "name": "Dark Wave",
-    "description": "Dark Wave aesthetic captions with Montserrat Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "classic",
-      "bold"
-    ],
-    "font": {
-      "name": "Montserrat Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 60,
-      "strokeSize": 8,
-      "blurSize": 6,
-      "emojiSize": 66,
-      "backgroundRadius": 8,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
     "id": "vinyl-player",
     "name": "Vinyl Player",
     "description": "Vinyl Player aesthetic captions with Montserrat Bold styling",
@@ -3834,181 +5584,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasBackground": false,
     "wordHasPunctuation": true,
     "wordHasShadow": false,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
-    "id": "bold-spring-pop",
-    "name": "Bold Spring Pop",
-    "description": "Bold Spring Pop animated captions with CC-Abrasion regular styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "CC-Abrasion regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "italic-glide",
-    "name": "Italic Glide",
-    "description": "Italic Glide animated captions with Montra Italic styling",
-    "category": "minimal",
-    "tags": [
-      "trending",
-      "clean",
-      "minimal"
-    ],
-    "font": {
-      "name": "Montra Italic",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 255,
-          "b": 120
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RISE_UP",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 8,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "DEFAULT"
   },
@@ -4183,269 +5758,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "solar-word-pop",
-    "name": "Solar Word Pop",
-    "description": "Solar Word Pop animated captions with ZY Elegant styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "ZY Elegant",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "bouncy-elastic-pop",
-    "name": "Bouncy Elastic Pop",
-    "description": "Bouncy Elastic Pop animated captions with Benguiat Pro ITC Bold styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Benguiat Pro ITC Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "line-rise-reveal",
-    "name": "Line Rise Reveal",
-    "description": "Line Rise Reveal animated captions with Balwine Regular styling",
-    "category": "minimal",
-    "tags": [
-      "trending",
-      "clean",
-      "minimal"
-    ],
-    "font": {
-      "name": "Balwine Regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 255,
-          "b": 120
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RISE_UP",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 8,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "luminous-fade-in",
@@ -4707,181 +6019,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "rapid-word-pop",
-    "name": "Rapid Word Pop",
-    "description": "Rapid Word Pop animated captions with Klop styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Klop",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "neon-emerald-glow",
-    "name": "Neon Emerald Glow",
-    "description": "Neon Emerald Glow animated captions with YWFT Becks Regular styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "YWFT Becks Regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
-  },
-  {
     "id": "zoom-punch",
     "name": "Zoom Punch",
     "description": "Zoom Punch animated captions with Giorgio URW styling",
@@ -4948,182 +6085,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
       "displayWords": "FIXED",
       "spokenMode": "WORD",
       "effectType": "VARIETY_PUNCH",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "electric-mint-pop",
-    "name": "Electric Mint Pop",
-    "description": "Electric Mint Pop animated captions with Gotham-Bold styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Gotham-Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "impact-bold-pop",
-    "name": "Impact Bold Pop",
-    "description": "Impact Bold Pop animated captions with HYQiHeiArabic 75 styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "HYQiHeiArabic 75",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
       "emojiEffect": "SLIDE"
     },
     "sizes": {
@@ -5398,94 +6359,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordsPerLineCount": 3,
     "wordHasBackground": false,
     "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "script-bounce-pop",
-    "name": "Script Bounce Pop",
-    "description": "Script Bounce Pop animated captions with Coda Heavy styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Coda Heavy",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
@@ -6088,94 +6961,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordsPerLineCount": 3,
     "wordHasBackground": false,
     "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "framed-box-popup",
-    "name": "Framed Box Popup",
-    "description": "Framed Box Popup animated captions with Melvins One Regular styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Melvins One Regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
@@ -6955,94 +7740,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "variety-comic-pop",
-    "name": "Variety Comic Pop",
-    "description": "Variety Comic Pop animated captions with Roboto Condensed Black styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Roboto Condensed Black",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
     "id": "-4645",
     "name": "\u98ce\u683c\u5316\u5b57\u4f53-\u653e\u5927",
     "description": "\u98ce\u683c\u5316\u5b57\u4f53-\u653e\u5927 animated captions with True Fate Serif Regular styling",
@@ -7387,94 +8084,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "gothic-word-pop",
-    "name": "Gothic Word Pop",
-    "description": "Gothic Word Pop animated captions with Uninsta Black styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "Uninsta Black",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
     "id": "-4421",
     "name": "\u53d8\u8272\u653e\u5927 \u7eff",
     "description": "\u53d8\u8272\u653e\u5927 \u7eff animated captions with Just Wright styling",
@@ -7556,94 +8165,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordsPerLineCount": 3,
     "wordHasBackground": false,
     "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "bold-spring-pop-1350",
-    "name": "Bold Spring Pop",
-    "description": "Bold Spring Pop animated captions with ZY Palette styling",
-    "category": "bold",
-    "tags": [
-      "trending",
-      "word",
-      "bold",
-      "animation"
-    ],
-    "font": {
-      "name": "ZY Palette",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 43,
-          "g": 248,
-          "b": 42
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "WORD",
-      "displayWords": "FIXED",
-      "spokenMode": "WORD",
-      "effectType": "SPRING_BOUNCE",
-      "emojiEffect": "SLIDE"
-    },
-    "sizes": {
-      "fontSize": 52,
-      "strokeSize": 12,
-      "blurSize": 8,
-      "emojiSize": 56,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 72
-    },
-    "linesCount": 1,
-    "wordsPerLineCount": 1,
-    "wordHasBackground": false,
-    "wordHasPunctuation": false,
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
@@ -9109,93 +9630,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "solar-glow-word",
-    "name": "Solar Glow Word",
-    "description": "Solar Glow Word animated captions with Work Sans Black styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Work Sans Black",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "-8989",
@@ -11607,92 +12041,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "capitalizationType": "UPPERCASE"
   },
   {
-    "id": "color-gradient-prism",
-    "name": "Color Gradient Prism",
-    "description": "Color Gradient Prism animated captions with Amazing Slab Black styling",
-    "category": "viral",
-    "tags": [
-      "trending",
-      "animation"
-    ],
-    "font": {
-      "name": "Amazing Slab Black",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 255,
-          "g": 230,
-          "b": 0
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 0,
-          "g": 255,
-          "b": 120
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "RAINBOW_CYCLE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 8,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "UPPERCASE"
-  },
-  {
     "id": "2-9701",
     "name": "\u591a\u8272\u5b57\u6bcd\u53d1\u51492",
     "description": "\u591a\u8272\u5b57\u6bcd\u53d1\u51492 animated captions with Melvins Three Regular styling",
@@ -11777,93 +12125,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "glowing-rise-up",
-    "name": "Glowing Rise Up",
-    "description": "Glowing Rise Up animated captions with FFF_Oezguer-Guendem Bold styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "FFF_Oezguer-Guendem Bold",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "flashback-deep-shadow",
@@ -12036,93 +12297,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "jitter-rainbow-glow",
-    "name": "Jitter Rainbow Glow",
-    "description": "Jitter Rainbow Glow animated captions with Inter Black styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Inter Black",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "-7877",
@@ -12986,93 +13160,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "uv-neon-strobe",
-    "name": "UV Neon Strobe",
-    "description": "UV Neon Strobe animated captions with HV Analogue Bold Regular styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "HV Analogue Bold Regular",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "feather-floating",
@@ -14620,93 +14707,6 @@ export const VIRAL_PRESETS: TemplateConfig[] = [
     "wordHasShadow": true,
     "emojiAnimated": true,
     "capitalizationType": "UPPERCASE"
-  },
-  {
-    "id": "fluorescent-carved",
-    "name": "Fluorescent Carved",
-    "description": "Fluorescent Carved animated captions with Feisty styling",
-    "category": "glow",
-    "tags": [
-      "trending",
-      "glow",
-      "aesthetic"
-    ],
-    "font": {
-      "name": "Feisty",
-      "weight": 800,
-      "direction": "LTR"
-    },
-    "colors": {
-      "defaultColor": [
-        {
-          "r": 255,
-          "g": 255,
-          "b": 255
-        }
-      ],
-      "spokenColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255
-        }
-      ],
-      "hilightColor": [
-        {
-          "r": 255,
-          "g": 0,
-          "b": 128
-        }
-      ],
-      "strokeColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 1
-        }
-      ],
-      "backgroundColor": [
-        {
-          "r": 0,
-          "g": 0,
-          "b": 0,
-          "a": 0.0
-        }
-      ],
-      "shadowColor": [
-        {
-          "r": 0,
-          "g": 240,
-          "b": 255,
-          "a": 0.85
-        }
-      ]
-    },
-    "modes": {
-      "displayMode": "LINE",
-      "displayWords": "PUNCTUATION",
-      "spokenMode": "WORD",
-      "effectType": "GLOW_PULSE",
-      "emojiEffect": "DEFAULT"
-    },
-    "sizes": {
-      "fontSize": 44,
-      "strokeSize": 8,
-      "blurSize": 16,
-      "emojiSize": 48,
-      "backgroundRadius": 10,
-      "backgroundPaddingX": 16,
-      "backgroundPaddingY": 8,
-      "posY": 75
-    },
-    "linesCount": 2,
-    "wordsPerLineCount": 3,
-    "wordHasBackground": false,
-    "wordHasPunctuation": true,
-    "wordHasShadow": true,
-    "emojiAnimated": true,
-    "capitalizationType": "DEFAULT"
   },
   {
     "id": "-7893",
