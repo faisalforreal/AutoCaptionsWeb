@@ -58,7 +58,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenEditor }) => {
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-              <span>150+ Creator presets</span>
+              <span>300+ Creator presets</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />

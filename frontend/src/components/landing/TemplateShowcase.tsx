@@ -124,7 +124,7 @@ export const TemplateShowcase: React.FC<TemplateShowcaseProps> = ({ onSelectPres
             Template Gallery
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight mb-4">
-            150+ Pre-Built Creator Styles
+            300+ Pre-Built Creator Styles
           </h2>
           <p className="text-[#9090a8] text-base leading-relaxed">
             Hover over any template to preview its signature animation live. Choose from trending styles, sliding lyrics, or punchy one-word captions.

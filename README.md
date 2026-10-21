@@ -1,12 +1,12 @@
 # AutoCaption — Production AI Video Captions & Viral Subtitles
 
-> An end-to-end, production-ready clone of [AutoCaption.io](https://autocaption.io/), reverse-engineered to provide 16 viral creator styles, word-level audio alignment powered by Deepgram Nova-2, and **100% free client-side video rendering**.
+> An end-to-end, production-ready clone of [AutoCaption.io](https://autocaption.io/), reverse-engineered to provide 300+ viral creator styles, word-level audio alignment powered by Deepgram Nova-2, and **100% free client-side video rendering**.
 
 ---
 
 ## 🌟 Key Features
 
-- **16 Viral Creator Presets**:
+- **300+ Viral Creator Presets**:
   - *Hormozi Bold* (900-weight yellow highlight with thick black outline)
   - *MrBeast Explosive* (High-energy comic pop with bouncy emojis)
   - *Ali Abdaal Clean* (Dark minimalist pill backdrop with sky blue highlight)

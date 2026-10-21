@@ -7,7 +7,7 @@ export const FaqSection: React.FC = () => {
   const faqs = [
     {
       q: 'What is AutoCaption?',
-      a: 'AutoCaption is a caption studio that automatically creates animated, stylish captions for your videos. Upload your video, pick from 45+ creator styles (including sliding lyrics stanzas and high-retention one-word pops), fine-tune the timing, and download a ready-to-post video for TikTok, Reels, or Shorts.'
+      a: 'AutoCaption is a caption studio that automatically creates animated, stylish captions for your videos. Upload your video, pick from 300+ creator styles (including sliding lyrics stanzas and high-retention one-word pops), fine-tune the timing, and download a ready-to-post video for TikTok, Reels, or Shorts.'
     },
     {
       q: 'Is AutoCaption really 100% free with no watermark?',

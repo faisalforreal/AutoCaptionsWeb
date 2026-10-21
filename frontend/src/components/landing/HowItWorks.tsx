@@ -13,7 +13,7 @@ export const HowItWorks: React.FC = () => {
       num: '02',
       icon: Sliders,
       title: 'Customize your captions',
-      desc: 'Choose from 16 creator-tested styles (Hormozi, MrBeast, Cyberpunk, and more). Customize colors, fonts, highlight animations, and emojis.'
+      desc: 'Choose from 300+ creator-tested styles (Hormozi, MrBeast, Cyberpunk, and more). Customize colors, fonts, highlight animations, and emojis.'
     },
     {
       num: '03',

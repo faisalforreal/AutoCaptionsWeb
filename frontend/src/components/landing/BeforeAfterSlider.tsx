@@ -126,37 +126,6 @@ export const BeforeAfterSlider: React.FC = () => {
           </div>
         </div>
 
-        {/* Right-Side Social Rail (TikTok/Reels UI) */}
-        <div className="absolute right-3.5 bottom-20 z-10 flex flex-col items-center gap-4 text-white/70">
-          <div className="flex flex-col items-center">
-            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
-              <Heart className="w-4 h-4 fill-white/20 text-white" />
-            </div>
-            <span className="text-[10px] font-bold mt-1">48.2K</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
-              <MessageCircle className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-[10px] font-bold mt-1">1.2K</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
-              <Bookmark className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-[10px] font-bold mt-1">9.4K</span>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
-              <Share2 className="w-4 h-4 text-white" />
-            </div>
-            <span className="text-[10px] font-bold mt-1">Share</span>
-          </div>
-        </div>
-
         {/* Bottom Video Timeline & Audio Bar */}
         <div className="relative z-10 space-y-2">
           {/* Audio track name */}
@@ -173,12 +142,74 @@ export const BeforeAfterSlider: React.FC = () => {
       </div>
 
       {/* ============================================================== */}
-      {/* 2. "BEFORE" UI BADGE (Left Side)                               */}
+      {/* 2. "BEFORE" OVERLAY (Clipped to left side: 0% to sliderPosition) */}
       {/* ============================================================== */}
-      <div className="absolute top-4 left-4 z-20 pointer-events-none">
-        <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-black/60 text-white/80 border border-white/15 backdrop-blur-md shadow-md">
-          Raw Video
-        </span>
+      <div
+        className="absolute inset-0 z-20 pointer-events-none overflow-hidden"
+        style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
+      >
+        {/* Top-Left "Raw Video" Badge (only on Before side) */}
+        <div className="absolute top-4 left-4">
+          <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-black/70 text-white/80 border border-white/15 backdrop-blur-md shadow-md">
+            Raw Video
+          </span>
+        </div>
+
+        {/* Low Engagement Social Pill (Left side view) */}
+        <div className="absolute bottom-20 left-4 flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-black/70 border border-white/10 backdrop-blur-md text-[10px] text-white/70 shadow-lg">
+          <span className="flex items-center gap-1 text-red-400 font-semibold">
+            <Heart className="w-3 h-3 fill-red-400/30 text-red-400" />
+            <span>24</span>
+          </span>
+          <span className="w-px h-2.5 bg-white/20" />
+          <span className="flex items-center gap-1 text-white/60 font-semibold">
+            <MessageCircle className="w-3 h-3 text-white/50" />
+            <span>2</span>
+          </span>
+          <span className="w-px h-2.5 bg-white/20" />
+          <span className="flex items-center gap-1 text-white/60 font-semibold">
+            <Share2 className="w-3 h-3 text-white/50" />
+            <span>0</span>
+          </span>
+        </div>
+
+        {/* -53% Watch Time Retention Badge (In Red) */}
+        <div className="absolute bottom-12 left-4">
+          <span className="text-[10px] font-bold px-2.5 py-1 rounded-md bg-red-500/20 text-red-400 border border-red-500/30 backdrop-blur-md shadow-md">
+            -53% Watch Time
+          </span>
+        </div>
+
+        {/* Right-Side Low Social Rail (revealed if slider dragged right) */}
+        <div className="absolute right-3.5 bottom-20 z-10 flex flex-col items-center gap-4 text-white/60">
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center">
+              <Heart className="w-4 h-4 fill-white/10 text-white/50" />
+            </div>
+            <span className="text-[10px] font-bold mt-1 text-white/50">24</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center">
+              <MessageCircle className="w-4 h-4 text-white/50" />
+            </div>
+            <span className="text-[10px] font-bold mt-1 text-white/50">2</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center">
+              <Bookmark className="w-4 h-4 text-white/50" />
+            </div>
+            <span className="text-[10px] font-bold mt-1 text-white/50">1</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center">
+              <Share2 className="w-4 h-4 text-white/50" />
+            </div>
+            <span className="text-[10px] font-bold mt-1 text-white/50">0</span>
+          </div>
+        </div>
       </div>
 
       {/* ============================================================== */}
@@ -188,7 +219,7 @@ export const BeforeAfterSlider: React.FC = () => {
         className="absolute inset-0 z-20 pointer-events-none overflow-hidden"
         style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
       >
-        {/* Top-Right "With Captions" Badge */}
+        {/* Top-Right "With Captions" Badge (No Raw Video tag) */}
         <div className="absolute top-4 right-4">
           <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-purple-600 text-white border border-purple-400/40 shadow-lg shadow-purple-900/40">
             With AutoCaption
@@ -219,9 +250,40 @@ export const BeforeAfterSlider: React.FC = () => {
           </div>
         </div>
 
+        {/* High Engagement Social Rail on Right Side */}
+        <div className="absolute right-3.5 bottom-20 z-10 flex flex-col items-center gap-4 text-white/70">
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
+              <Heart className="w-4 h-4 fill-white/20 text-white" />
+            </div>
+            <span className="text-[10px] font-bold mt-1">48.2K</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
+              <MessageCircle className="w-4 h-4 text-white" />
+            </div>
+            <span className="text-[10px] font-bold mt-1">1.2K</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
+              <Bookmark className="w-4 h-4 text-white" />
+            </div>
+            <span className="text-[10px] font-bold mt-1">9.4K</span>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <div className="w-9 h-9 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center hover:text-white">
+              <Share2 className="w-4 h-4 text-white" />
+            </div>
+            <span className="text-[10px] font-bold mt-1">2.4K</span>
+          </div>
+        </div>
+
         {/* Watch Time Retention Badge */}
-        <div className="absolute bottom-6 right-6">
-          <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-sm">
+        <div className="absolute bottom-12 right-6">
+          <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 backdrop-blur-sm shadow-md">
             +340% Watch Time
           </span>
         </div>

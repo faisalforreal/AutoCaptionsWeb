@@ -26,7 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEditor, onOpenSupport }) =
         {/* Navigation Links */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-[#a0a0b8]">
           <a href="#features" className="hover:text-white transition-colors">Features</a>
-          <a href="#templates" className="hover:text-white transition-colors">150+ Presets</a>
+          <a href="#templates" className="hover:text-white transition-colors">300+ Presets</a>
           <a href="#how-it-works" className="hover:text-white transition-colors">How It Works</a>
           <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
         </nav>

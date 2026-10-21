@@ -277,13 +277,13 @@ export const useEditorStore = create<EditorState>((set, get) => ({
       videoUrl: '',
       words: DEMO_WORDS,
       duration: 6.5,
-      projectName: 'Demo Viral Reel (16 Styles)',
+      projectName: 'Demo Viral Reel (300+ Styles)',
       hasCustomVideo: false
     });
 
     const s = get();
     saveMetaToStorage({
-      projectName: 'Demo Viral Reel (16 Styles)',
+      projectName: 'Demo Viral Reel (300+ Styles)',
       aspectRatio: s.aspectRatio,
       duration: 6.5,
       config: s.config,

@@ -6,7 +6,7 @@ export const FeaturesGrid: React.FC = () => {
   const features = [
     {
       icon: Type,
-      title: '150+ Creator Caption Styles',
+      title: '300+ Creator Caption Styles',
       desc: 'Instant styles including sliding lyrics, elastic bounce, high-retention one-word pops, neon glow, and retro aesthetics.',
       color: 'text-purple-400'
     },
