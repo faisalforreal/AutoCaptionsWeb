@@ -8,6 +8,7 @@ import { TemplateGallery } from '../components/editor/TemplateGallery';
 import { StyleControls } from '../components/editor/StyleControls';
 import { ExportModal } from '../components/editor/ExportModal';
 import { SupportModal } from '../components/support/SupportModal';
+import { PaySupportModal } from '../components/support/PaySupportModal';
 
 import { useEditorStore } from '../store/useEditorStore';
 import { extractAudioFromVideo } from '../engine/audioExtractor';
@@ -20,6 +21,7 @@ export const EditorPage: React.FC = () => {
 
   const [isExportModalOpen, setIsExportModalOpen] = useState(false);
   const [showSupportModal, setShowSupportModal] = useState(false);
+  const [showPaySupportModal, setShowPaySupportModal] = useState(false);
 
   const {
     projectName,
@@ -158,7 +160,7 @@ export const EditorPage: React.FC = () => {
         onBack={() => navigate('/')}
         aspectRatio={aspectRatio}
         onChangeAspectRatio={setAspectRatio}
-        onOpenExport={() => setIsExportModalOpen(true)}
+        onOpenExport={() => setShowPaySupportModal(true)}
         onOpenSupport={() => setShowSupportModal(true)}
         onNewProject={handleTriggerNewProject}
         isTranscribing={isTranscribing}
@@ -262,6 +264,20 @@ export const EditorPage: React.FC = () => {
           />
         </div>
       </div>
+
+      {/* Pay Support Modal displayed on Export with Skip option */}
+      <PaySupportModal
+        isOpen={showPaySupportModal}
+        onClose={() => setShowPaySupportModal(false)}
+        onSkip={() => {
+          setShowPaySupportModal(false);
+          setIsExportModalOpen(true);
+        }}
+        onSupportSuccess={() => {
+          setShowPaySupportModal(false);
+          setIsExportModalOpen(true);
+        }}
+      />
 
       {/* Export Modal */}
       <ExportModal

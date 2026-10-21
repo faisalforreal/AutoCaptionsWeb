@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { X, Heart, Coffee, Sparkles, Loader2, ArrowRight } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Heart, Coffee, Loader2, ArrowRight } from 'lucide-react';
 import { ApiService } from '../../services/api';
 
 interface SupportModalProps {
@@ -20,6 +20,18 @@ export const SupportModal: React.FC<SupportModalProps> = ({ isOpen, onClose }) =
   const [isCustom, setIsCustom] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  // Close modal on Escape key press
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 
@@ -49,16 +61,26 @@ export const SupportModal: React.FC<SupportModalProps> = ({ isOpen, onClose }) =
     setLoading(true);
     setErrorMessage(null);
 
+    // Open a blank tab synchronously to prevent popup blocker suppression
+    const checkoutTab = window.open('about:blank', '_blank');
+
     try {
       const amountToPay = isCustom ? parseFloat(customAmount) : selectedAmount;
       const response = await ApiService.createSupportCheckout(amountToPay);
 
       if (response?.checkoutUrl) {
-        window.location.href = response.checkoutUrl;
+        if (checkoutTab) {
+          checkoutTab.location.href = response.checkoutUrl;
+        } else {
+          window.location.href = response.checkoutUrl;
+        }
+        onClose();
       } else {
+        if (checkoutTab) checkoutTab.close();
         throw new Error('No checkout URL received');
       }
     } catch (err: any) {
+      if (checkoutTab) checkoutTab.close();
       console.error('Support checkout failed:', err);
       setErrorMessage(
         'Payment checkout is currently being configured. Please check back shortly!'
@@ -68,8 +90,14 @@ export const SupportModal: React.FC<SupportModalProps> = ({ isOpen, onClose }) =
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md select-none">
-      <div className="relative w-full max-w-md bg-[#131326] border border-white/10 rounded-2xl shadow-2xl p-6 overflow-hidden">
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md select-none"
+      onClick={onClose}
+    >
+      <div
+        className="relative w-full max-w-md bg-[#131326] border border-white/10 rounded-2xl shadow-2xl p-6 overflow-hidden"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* Close Button */}
         <button
           onClick={onClose}
